@@ -3,5 +3,6 @@ let arr=[];
 let b=0;
 for(let i=0;i<age.length;i++){
     b=b+age[i];
-    console.log(b);
+    arr.push(b);
 }
+console.log(arr);
